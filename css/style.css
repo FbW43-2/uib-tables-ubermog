@@ -2,8 +2,17 @@ table,
 tr,
 th,
 td {
-  border: 1px solid black;
   border-collapse: collapse;
+}
+
+table {
+  border: 3px solid red;
+}
+
+tr,
+th,
+td {
+  border: 2px solid red;
 }
 
 th {
@@ -11,6 +20,15 @@ th {
 }
 
 .optional {
-  width: 460px;
-  height: 270px;
+  margin-top: 0px;
+  width: 469px;
+  height: 273px;
+}
+
+.div-bg {
+  background-image: url(/img/download.jpeg);
+  background-repeat: no-repeat;
+  width: 480px;
+  height: 278px;
+  padding: 2px 3px;
 }
